@@ -6,4 +6,4 @@ else{
     console.log('Tails');
 }
 
-console.log(randomNumber);
+ 
