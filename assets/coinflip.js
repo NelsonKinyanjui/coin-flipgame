@@ -1,0 +1,9 @@
+const randomNumber = Math.random();
+if (randomNumber <= 0.5){
+    console.log('Heads');
+}
+else{
+    console.log('Tails');
+}
+
+console.log(randomNumber);
