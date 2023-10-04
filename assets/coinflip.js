@@ -1,9 +1,10 @@
 const randomNumber = Math.random();
-if (randomNumber <= 0.5){
-    console.log('Heads');
-}
-else{
-    console.log('Tails');
-}
+const result = randomNumber <= 0.5 ? 'Heads': 'Tails';
+ 
+let guess = 'Heads';
+console.log(guess === 'Heads'? 'You win!' : 'You lose!');
+
+
+
 
  
